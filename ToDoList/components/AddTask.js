@@ -18,7 +18,7 @@ const AddTask = ({ onAddTask }) => {
         placeholder="Enter a new toDo"
         value={initialValues}
         onChangeText={(text) => setInitialValue(text)}
-        keyboardType="characters"
+        keyboardType="default"
         returnKeyType="done"
       />
       <Button title="Add ToDo" onPress={handleAddTask} />

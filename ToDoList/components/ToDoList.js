@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
+import 'react-native-get-random-values'
 import { v4 as uuidv4 } from 'uuid';
 import AddTask from './AddTask';
 
